@@ -142,7 +142,7 @@ const RepoList = () => {
   return (
     <Layout style={{ minHeight: '100vh' }}>
       <Header style={{ padding: '20px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-        <img src="logo.svg" alt="Logo" style={{ width: '25px', margin: '20px'}} />
+        <img src="logo.png" alt="Logo" style={{ width: '25px', margin: '20px'}} />
         <p style={{ margin: '20px', color: 'white'}}>Github-Star-Search | Github-Star项目-AI检索工具 | Created by Airmomo</p>
         <Button type="primary" onClick={showModal} disabled={loading || initializing}>
           设置
