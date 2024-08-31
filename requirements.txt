@@ -1,0 +1,8 @@
+chromadb==0.5.4
+fastapi==0.112.2
+openai==1.43.0
+pydantic==2.8.2
+Requests==2.32.3
+urllib3==2.2.2
+uvicorn==0.30.6
+zhipuai==2.1.4.20230814
