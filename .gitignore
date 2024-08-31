@@ -31,6 +31,7 @@ client/package-lock.json
 # service
 service/else
 service/static
+service/vector
 service/*.env
 service/settings.json
 service/.python-version
