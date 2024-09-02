@@ -56,7 +56,7 @@ class Repository(BaseModel):
     owner: str = Field(default="", description="The owner of the repository.")
     name: str = Field(default="", description="The name of the repository.")
     description: str = Field(default="The repository has no description.",
-                             description="A simple description of the repository.")
+                            description="A simple description of the repository.")
     stargazers_count: int = Field(
         default=0, description="Indicates how many people have collected the repository.")
     url: str = Field(default="", description="The url of the repository.")
