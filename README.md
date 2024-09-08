@@ -1,6 +1,6 @@
 # github-star-rag
 
-`github-star-rag`是一个基于简单 RAG 架构的实现的检索器，能够用于检索 Github 用户 Star 的项目中与提问内容具备相关性的结果，并简要地展示相关的项目信息。你可以视作这是一个具备理解能力、评估和检索能力的 Github-Star 项目 AI 搜索功能。
+`github-star-rag`是一个基于简初级 RAG 架构的实现的检索器，能够用于检索 Github 用户 Star 的项目中与提问内容具备相关性的结果，并简要地展示相关的项目信息。你可以视作这是一个具备理解能力、评估和检索能力的 Github-Star 项目 AI 搜索功能。
 
 # 环境部署
 
@@ -23,6 +23,10 @@ cd github-star-rag/client
 npm start
 open localhost:3000
 ```
+
+# RAG 架构设计
+
+![alt text](rag.png)
 
 # 主页
 
